@@ -1,0 +1,100 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    background-color: whitesmoke;
+    margin: 0;
+}
+
+.title {
+    font-size: large;
+    text-align: center;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+img {
+    border-radius: 50%;
+    width: 170px;
+    height: auto;
+}
+
+hr {
+    border: solid #E79F31;
+    width: 60%;
+    border-radius: 5px;
+    margin: 20px auto;
+    transition: width 2s;
+}
+
+hr:hover {border: solid coral; width: 100%;}
+
+.border {
+    border: solid #E79F31;
+    width: 100%;
+    border-radius: 1px;
+    margin: 20px auto;
+    transition: width 2s;
+}
+
+.segment{
+    width: 60%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+@keyframes lmove {
+    from {left: -300px; opacity: 0;}
+    to {left: 0; opacity: 1;}
+}
+
+@keyframes rmove {
+    from {right: -300px; opacity: 0;}
+    to {right: 0; opacity: 1;}
+}
+
+.content1{
+    font-size: large;
+    color: black;
+    position: relative;
+    animation-name: rmove;
+    animation-duration: 4s;
+    animation-delay: 0s;
+}
+
+.content2{
+    font-size: large;
+    color: black;
+    position: relative;
+    animation-name: lmove;
+    animation-duration: 4s;
+    animation-delay: 0s;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.nama {
+    font-size: x-large;
+    color: black;
+    margin-bottom: 5px;
+}
+
+tr:hover {background-color: coral; color: white; font-weight: 550;}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+}
+
+th,td {
+    border: 2px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #E79F31;
+    color: white;
+}
